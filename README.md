@@ -1,4 +1,4 @@
-# A4--OLAP-cube-PLSQL-supermarket-dataset
+# Construction-of-OLAP-cube-for-Supermarket
 
 ## Introduction:
    Given the supermarket dataset, we intent to develop a OLAP cube from the raw supermarket data and transform the data as tables using PLSQL for further data integration and visualization
