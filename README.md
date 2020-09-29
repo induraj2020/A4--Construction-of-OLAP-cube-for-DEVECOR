@@ -10,21 +10,23 @@
   * Visualize the OLAP cube using QLIKSENSE
 
 ## Requirements
-1. Operational database for company
-      i. The script for creating tables in the operational database
-      ii. The script of my procedure that will generate the dataset.
-      iii. And finally you give the privileges to the session 2 to read the contents of the created tables
+1. Operational database for company,
+   * The script for creating tables in the operational database
+   * The script of my procedure that will generate the dataset.
+   * And finally you give the privileges to the session 2 to read the contents of the created tables
+ 
  2. Decisional database for the management of the company
-      i. The script for creating the tables of the decision database
-      ii. The script of the procedure that will select to give them from the operational database to put them in the decision-making database (ETL).
+      * The script for creating the tables of the decision database
+      * The script of the procedure that will select to give them from the operational database to put them in the decision-making database (ETL).
 
 3. Expression of needs The sales manager wants:
-      i. To study the turnover and sales volume
-      ii. By product and Family.
-      iii. Per week, month and year.
-      iv. By department and region.
+      * To study the turnover and sales volume
+      * By product and Family.
+      * Per week, month and year.
+      * By department and region.
+      
 4. A procedure to generate
-      i. Supply chain analysis (Inventory, sales in a given time period)
+      * Supply chain analysis (Inventory, sales in a given time period)
 
 ## PLSQL code
   To See Full plsql code [click here](https://github.com/induraj2020/A4--OLAP-cube-PLSQL-supermarket-dataset-/blob/master/2019.12.28%20-%20PLSQL.pdf)
