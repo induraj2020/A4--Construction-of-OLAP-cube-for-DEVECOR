@@ -1,12 +1,30 @@
-# Construction-of-OLAP-cube-for-Supermarket
+# Construction-of-OLAP-cube-for-DEVECOR
 
 ## Introduction:
-   Given the supermarket dataset, we intent to develop a OLAP cube from the raw supermarket data and transform the data as tables using PLSQL for further data integration and visualization
+   Given the DEVECOR dataset, we intent to develop a OLAP cube from the raw data and transform the data as tables using PLSQL for further data integration and visualization
+   The purpose of this project is to implement the learnings from PL/SQL and apply it to demo case of DEVECOR. Our objective is to build operational database do the ETL and build warehouse with DataMart’s. But for this case we replicate the framework of data warehouse with 2 databases and pushing the data after cleaning and then building the small tables needed by the respective department.
 
 ## Objective: 
   * To integrate data's such that OLAP cube is formed
   * To master PLSQL language and the concept of OLAP cube
   * Visualize the OLAP cube using QLIKSENSE
+
+## Requirements
+1. Operational database for company
+      i. The script for creating tables in the operational database
+      ii. The script of my procedure that will generate the dataset.
+      iii. And finally you give the privileges to the session 2 to read the contents of the created tables
+ 2. Decisional database for the management of the company
+      i. The script for creating the tables of the decision database
+      ii. The script of the procedure that will select to give them from the operational database to put them in the decision-making database (ETL).
+
+3. Expression of needs The sales manager wants:
+      i. To study the turnover and sales volume
+      ii. By product and Family.
+      iii. Per week, month and year.
+      iv. By department and region.
+4. A procedure to generate
+      i. Supply chain analysis (Inventory, sales in a given time period)
 
 ## PLSQL code
   To See Full plsql code [click here](https://github.com/induraj2020/A4--OLAP-cube-PLSQL-supermarket-dataset-/blob/master/2019.12.28%20-%20PLSQL.pdf)
