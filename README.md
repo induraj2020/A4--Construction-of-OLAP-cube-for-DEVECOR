@@ -1,7 +1,7 @@
 # Construction-of-OLAP-cube-for-DEVECOR
 
 ## Introduction:
-   Given the DEVECOR dataset, we intent to develop a OLAP cube from the raw data and transform the data as tables using PLSQL for further data integration and visualization
+   Given the DEVECOR dataset, In this project, I develop a OLAP cube from the raw data and transform the data as tables using PLSQL for further data integration and visualization
    The purpose of this project is to implement the learnings from PL/SQL and apply it to demo case of DEVECOR. Our objective is to build operational database do the ETL and build warehouse with DataMart’s. But for this case we replicate the framework of data warehouse with 2 databases and pushing the data after cleaning and then building the small tables needed by the respective department.
 
 ## Objective: 
@@ -9,7 +9,7 @@
   * To master PLSQL language and the concept of OLAP cube
   * Visualize the OLAP cube using QLIKSENSE
 
-## Requirements
+## Procedure used
 1. Operational database for company,
    * The script for creating tables in the operational database
    * The script of my procedure that will generate the dataset.
